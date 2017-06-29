@@ -1,0 +1,40 @@
+create database clothing;
+use clothing;
+create table t_shirts (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, brand char(20), size char(4), chest FLOAT(4), waist FLOAT(4), neck FLOAT(4), sleeve float(4));
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (1, 'Merona', 'S', 34.0, 28.0, 14.0, 32.5);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (2, 'Merona', 'S', 36.0, 30.0, 14.5, 33.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (3, 'Merona', 'M', 38.0, 32.0, 15.0, 33.5);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (4, 'Merona', 'M', 40.0, 34.0, 15.5, 34.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (5, 'Merona', 'L', 42.0, 36.0, 16.0, 34.5);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (6, 'Merona', 'L', 44.0, 38.0, 16.5, 35.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (7, 'Merona', 'XL', 46.0, 40.0, 17.0, 35.5);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (8, 'Merona', 'XL', 48.0, 42.0, 17.5, 36.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (9, 'Merona', 'XXL', 50.0, 44.0, 18.0, 36.5);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (10, 'Merona', 'XXL', 52.0, 46.0, 18.5, 37.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (11, 'Merona', 'XXXL', 54.0, 48.0, 19.0, 37.5);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (12, 'Merona', 'XXXL', 56.0, 50.0, 19.5, 38.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (13, Patagonia, S, 35.0, 29.0, 15.0, 33.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (14, Patagonia, S, 37.0, 30.0, 15.5, 33.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (15, Patagonia, M, 38.0, 31.0, 15.5, 34.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (16, Patagonia, M, 40.0, 33.0, 16.0, 34.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (17, Patagonia, L, 42.0, 34.0, 16.5, 35.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (18, Patagonia, L, 44.0, 36.0, 17.0, 35.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (19, Patagonia, XL, 46.0, 38.0, 17.0, 36.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (20, Patagonia, XL, 48.0, 40.0, 17.5, 36.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (21, Patagonia, XXL, 50.0, 42.0, 17.5, 37.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (22, Patagonia, XXL, 52.0, 44.0, 18.0, 37.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (23, Patagonia, XXXL, 54.0, 46.0, 18.5, 38.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (24, Patagonia, XXXL, 56.0, 48.0, 18.5, 38.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (25, Billabong, S, 38.0, 29.5, 14.0, 33.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (26, Billabong, S, 40.0, 30.5, 15.5, 34.5);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (27, Billabong, M, 38.0, 29.5, 14.0, 33.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (28, Billabong, M, 38.0, 29.5, 14.0, 33.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (29, Billabong, L, 38.0, 29.5, 14.0, 33.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (30, Billabong, L, 38.0, 29.5, 14.0, 33.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (31, Billabong, XL, 38.0, 29.5, 14.0, 33.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (32, Billabong, XL, 38.0, 29.5, 14.0, 33.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (33, Billabong, XXL, 38.0, 29.5, 14.0, 33.0);
+insert into t_shirts(id, brand, size, chest, waist, neck, sleeve) values (34, Billabong, XXL, 38.0, 29.5, 14.0, 33.0);
+
+
+
